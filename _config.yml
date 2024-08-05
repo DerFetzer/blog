@@ -1,0 +1,48 @@
+title: "DerFetzer's Blog"
+name: &name "DerFetzer"
+email: kontakt@der-fetzer.de
+locale: "en-US"
+description: >- # this means to ignore newlines until "baseurl:"
+  This is where DerFetzer occasionally blogs about personal projects.
+  The posts are mostly related to electronics repairs and hacking.
+baseurl: ""
+url: "https://blog.der-fetzer.de"
+
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/derfetzer.webp"
+  bio              : "I will occasionally blog about my personal projects."
+  location         : "Germany"
+  links: &links
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://social.tchncs.de/@DerFetzer"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DerFetzer"
+
+minimal_mistakes_skin: "dark"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      show_date: true
+
+picture:
+  relative_url: false
+
+# Build settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+
