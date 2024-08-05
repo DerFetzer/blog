@@ -1,6 +1,6 @@
 ---
 title:  "Hacking my Thinkpad Edge E531<br>Part 0: Make someone else do the hard work"
-date:   2024-07-29 18:00:00 +0200
+date:   2024-08-05 18:00:00 +0200
 tags: 
   - electronics 
   - repair
